@@ -1,0 +1,468 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        a:link{
+            color: green;
+            background-color: transparent;
+            text-decoration: none;
+        }
+        a:visited{
+            color: blue;
+            background-color: transparent;
+            text-decoration: none;
+        }
+        a:hover{
+            color: red;
+            background-color: transparent;
+            text-decoration: none;
+        }
+        a:active{
+            color: goldenrod;
+            background-color: transparent;
+            text-decoration: none;
+        }
+
+        table, th, td {
+            border: 1px solid black;
+            border-collapse: collapse; /* for the collapse of borders*/
+            padding: 5px;
+        }
+
+        table{
+            border-spacing: 15px;
+        }
+
+        th{
+            text-align: left;
+        }
+
+        #t01 {
+            width: 100%;
+            background-color: #f1f1c1;
+        }
+
+        #t02 {
+            width: 100%;
+            background-color: whitesmoke;
+        }
+
+        /* #t01 tr:nth-child(even) {
+            background-color: #eee;
+        } */
+        /* #t01 tr:nth-child(odd) {
+            background-color: #fff;
+        } */
+        /* #t01 th {
+            background-color: black;
+            color: white;
+        }    */
+
+        .city {
+  background-color: tomato;
+  color: white;
+  padding: 10px;
+} 
+
+    .main {
+  text-align: center;
+     }
+
+     #myHeader {
+  background-color: lightblue;
+  color: black;
+  padding: 40px;
+  text-align: center;
+}
+    </style>
+</head>
+<body style="background-color:grey">
+
+    <h1 style="font-size: 50px;">Demo project on html</h1>
+    <p title="Demo project on html">
+        hello html geeks
+
+    </p>
+    <hr>
+
+    <p style="color:grey">this is my first demo</p>
+    <p style="background-color: blue;">my first paragraph </p>
+
+    <!-- for horizon layer  -->
+    <hr>
+
+    <a href="#c4">go to hello html</a><br><br>
+
+
+    <a href="https://www.youtube.com">this is the link </a>
+    <img src="green.jpg",alt="green scenery",width="104",height="142">
+
+    <h1 style="font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;">this is my poem</h1>
+    <h1 style="font-size: medium;">author -> ravinder singh</h1>
+    <h1 style="text-align : center">Centered text</h1>
+    <pre>
+        My Bonnie lies over the ocean.
+      
+        My Bonnie lies over the sea.
+      
+        My Bonnie lies over the ocean.
+      
+        Oh, bring back my Bonnie to me.
+    </pre>
+      
+    <b>this is bold text</b><br>
+    <strong>this is also bold but with some importance</strong><br>
+    <i style="font-size:medium;">this is italic text</i><br>
+    <em>it is also italic .This text is emphasized</em><br>
+    <small>this is small text</small>
+    <p>this text is <mark>highlighted</mark></p>
+    <p>this text is <del>deleted</del></p>
+    <p>this text is <ins>grey</ins> not <del>black</del></p>
+    <p>this is subscripted means below the normal line H<sub>2</sub>o</p>
+    <p>this is subscripted means above the normal line SO<sup>4</sup></p>
+    <hr>
+    <p>this is for short quotation <q>i love this tag</q></p>
+    <p> the <abbr title="hyper text markup language">html</abbr></p>
+    <address>
+        written by ravin raw.<br>
+        visit us at:<br>
+        badarpur<br>
+        hari nagar <br>
+        new delhi.
+    </address>
+    <p>the title of famous creative work <cite> sacred games </cite> by anuragh kashyap</p>
+    <!-- bi-directional overide -->
+    <bdo dir="rtl"> this text is right to left </bdo><br>
+    <bdo dir="ltr">this text is left to right </bdo>
+
+    <h1 style="color: blueviolet;">hello color text</h1>
+    <h1 style="border: 2px solid tomato;">hello bordered text</h1>
+    <h2 style="border: 1px dashed green">hello bashed border</h2>
+
+    <hr>
+
+    <!-- target attribute to define where to open the linked document -->
+
+    <a href="http://www.youtube.com" target="_blank" style="border: 2px solid green;">Default. Opens the document in the same window/tab as it was clicked</a><br>
+    <br>
+    <a href="http://www.youtube.com" target="_self" style="border: 2px solid blue;"> Opens the document in a new window or tab</a><br>
+    <br>
+    <a href="http://www.youtube.com" target="_parent" style="border: 2px solid greenyellow;">Opens the document in the parent frame</a><br>
+    <br>
+    <a href="http://www.youtube.com" target="_top" style="border: 2px solid silver;">Opens the document in the full body of the window</a><br>
+    <br>
+
+ <!-- <img> element (inside <a>) to use an image as a link -->
+
+    <a href="http://www.youtube.com">
+        <img src="C:\Users\RAVINDER\Desktop" alt ="nature" width="1000" height="1000" >
+
+    </a><br>
+    <br>
+
+    <h2 id="c4">hello html</h2>
+
+    <!-- mailto: scheme inside the href attribute to create a link that opens the user's email program -->
+    
+    <a href="mailto:someone@gmail.com" style="color:blueviolet;"> <h2>send mail</h2></a><br>
+    <button onclick=""></button><br>
+    <a href="http://www.youtube.com" title="go to youtube">visit youtube</a><br>
+
+    <img src="https://www.w3schools.com/images/w3schools_green.jpg"
+        alt="dog photo" width="300" height="300"
+    >
+
+    <hr>
+
+    <img src="https://www.w3schools.com/images/w3schools_green.jpg" alt="W3Schools.com">
+
+    <!-- Image as a Link -->
+    <a href="https://www.w3schools.com">
+    <img src="smiley.gif" alt="HTML TUTORIAL" target="_blank" style="width: 42px; height:42px;">
+    </a>
+<br>
+    <!-- html Image Maps -->
+
+    <img href="workplace.jpg" alt="workplace" usemap="#workmap" width="400" height="379">
+
+        <map name="workmap">
+            <area shape="rect" coords="34,44,270,350" alt="computer" href="computer.htm">
+            <area shape="rect" coords="290,172,333,250" alt="phone" href="phone.htm">
+            <area shape="circle" coords="337,300,44" alt="cup of coffee" href="coffee.htm">
+        </map>
+    </a>
+    <br>
+    <!-- Background Image on a HTML element -->
+    <div style="background-image : url('smiley: .jpg');"></div><br>
+    
+    <!-- You can also specify the background image in the <style> element, in the <head> section: -->
+    <style>
+        body{
+            background-image: url('smiley.jpg');
+            background-repeat: no-repeat;
+        }
+    </style><br>
+
+    <!-- If the background image is smaller than the element, the image will repeat itself, horizontally and vertically, until it reaches the end of the element: -->
+    <!-- To avoid the background image from repeating itself, set the background-repeat property to no-repeat. -->
+
+<hr>
+
+<!-- If you want the background image to cover the entire element, you can set the background-size property to cover.
+
+Also, to make sure the entire element is always covered, set the background-attachment property to fixed:
+
+This way, the background image will cover the entire element, with no stretching (the image will keep its original proportions) -->
+
+<style>
+    body{
+        background-image: url('smiley.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+         /* background-size: 100% 100%; to  fit in entire element. */
+    }
+</style>
+
+<!-- If you want the background image to stretch to fit the entire element, you can set the background-size property to 100% 100%: -->
+
+<hr>
+
+<!-- Use the HTML <table> element to define a table
+    Use the HTML <tr> element to define a table row
+    Use the HTML <td> element to define a table data
+    Use the HTML <th> element to define a table heading
+    Use the HTML <caption> element to define a table caption
+    Use the CSS border property to define a border
+    Use the CSS border-collapse property to collapse cell borders
+    Use the CSS padding property to add padding to cells
+    Use the CSS text-align property to align cell text
+    Use the CSS border-spacing property to set the spacing between cells
+    Use the colspan attribute to make a cell span many columns
+    Use the rowspan attribute to make a cell span many rows
+    Use the id attribute to uniquely define one table -->
+
+    <table style="width:100%">
+        <tr>
+            <caption> Monthly Saving</caption> /* To add a caption to a table */
+          <th>Firstname</th>
+          <th>Lastname</th>
+          <th>Age</th>
+        </tr>
+        <tr>
+          <td>Jill</td>
+          <td>Smith</td>
+          <td>50</td>
+        </tr>
+        <tr>
+          <td>Eve</td>
+          <td>Jackson</td>
+          <td>94</td>
+        </tr>
+
+        </table>
+
+        <hr>
+
+        <table id="t01">
+
+        <tr>
+            <th>Name</th>
+            <th colspan="2">Telephone</th>
+          </tr>
+          <tr>
+            <td>Bill Gates</td>
+            <td>55577854</td>
+            <td>55577855</td>
+          </tr>
+
+          </table>
+
+          <hr>
+        
+          <table id="t02">
+
+          <tr>
+              <th>Name</th>
+              <td>bill Gates</td>
+          </tr>
+          <tr>
+              <th rowspan="2">Telephone</th>
+              <td>8485566855</td>
+          </tr>
+          <tr>
+              <td>8744599525</td>
+          </tr>
+
+      </table>
+
+      <hr>
+<!-- 
+      <ul>	Defines an unordered list
+        <ol>	Defines an ordered list
+        <li>	Defines a list item
+        <dl>	Defines a description list
+        <dt>	Defines a term in a description list
+        <dd>	Describes the term in a description list -->
+
+      <!-- The list items will be marked with bullets (small black circles) by default -->
+
+      <ul>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+      </ul><br>
+
+      <!-- The list items will be marked with numbers by default -->
+
+      <ol>
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+      </ol><br>
+
+      <!-- A description list is a list of terms, with a description of each term.
+The <dl> tag defines the description list, the <dt> tag defines the term (name), and the <dd> tag describes each term -->
+
+      <dl>
+        <dt>Coffee</dt>
+        <dd>- black hot drink</dd>
+        <dt>Milk</dt>
+        <dd>- white cold drink</dd>
+      </dl>
+
+      <hr>
+
+    <!-- disc	Sets the list item marker to a bullet (default)
+    circle	Sets the list item marker to a circle
+    square	Sets the list item marker to a square
+    none	The list items will not be marked -->
+
+    <ul style="list-style-type: disc">
+        <li>coffee</li>
+        <li>tea</li>
+    </ul><br>
+
+    <ul style="list-style-type: circle;">
+        <li>coffee</li>
+        <li>tea</li>
+    </ul><br>
+
+    <ul style="list-style-type: square;">
+        <li>coffee</li>
+        <li>tea</li>
+    </ul><br>
+    <ul style="list-style-type: none;">
+        <li>coffee</li>
+        <li>tea</li>
+    </ul>
+
+    <hr>
+
+    <ul>
+        <ol type="1">
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Milk</li>
+        </ol><br>
+
+        <ol type="A">
+            <li>Coffee</li>
+            <li>Tea</li>
+                <li>Milk</li>
+        </ol><br>
+        <ol type="a">
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Milk</li>
+        </ol><br>
+        <ol type="I">
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Milk</li>
+        </ol><br>
+
+        <ol type="i">
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Milk</li>
+        </ol><br>
+
+        <ol start="50">
+            <li>Coffee</li>
+            <li>Tea</li>
+            <li>Milk</li>
+          </ol>
+   </ul>
+
+   <hr>
+
+   <!-- A block-level element always starts on a new line.
+   A block-level element always takes up the full width available -->
+   <!-- A block level element has a top and a bottom margin, whereas an inline element does not.
+    The <div> element is a block-level element. -->
+
+   <div style="border: 1px solid black">Hello World</div>
+    <br>
+
+    <!-- An inline element does not start on a new line.
+    An inline element only takes up as much width as necessary.
+    This is a <span> element inside a paragraph. -->
+    <!-- An inline element cannot contain a block-level element! -->
+   <p>This is an inline span <span style="border: 1px solid black">Hello World</span> element inside a paragraph.</p>
+
+   <hr>
+
+   <!-- The class attribute is often used to point to a class name in a style sheet. It can also be used by a JavaScript to access and manipulate elements with the specific class name. -->
+
+   <h2>Multiple Classes</h2>
+   <p>Here, all three h2 elements belongs to the "city" class. In addition, London also belongs to the "main" class, which center-aligns the text.</p>
+   
+   <h2 class="city main">London</h2>
+   <h2 class="city">Paris</h2>
+   <h2 class="city">Tokyo</h2>
+
+   <hr>
+
+   <h1 id="myHeader">My Header</h1>
+
+   <!-- The id name is case sensitive!
+The id name must contain at least one character, cannot start with a number, and must not contain whitespaces (spaces, tabs, etc.). -->
+
+<!-- note -> A class name can be used by multiple HTML elements, while an id name must only be used by one HTML element within the page: -->
+
+<hr>
+
+<!-- An HTML iframe is used to display a web page within a web page. -->
+
+
+
+<iframe src="demo_iframe.htm" style="height:200px;width:300px;border: none;" title="Iframe Example"></iframe>
+<h2>Iframe - Target for a Link</h2>
+
+<iframe src="demo_iframe.htm" name="iframe_a" height="300px" width="100%" title="Iframe Example"></iframe>
+
+<p><a href="https://www.w3schools.com" target="iframe_a">W3Schools.com</a></p>
+
+<p>When the target attribute of a link matches the name of an iframe, the link will open in the iframe.</p>
+
+<hr>
+
+<link rel="stylesheet" href="mystyle.css">
+
+    
+
+
+
+
+
+
+
+
+
+</body>
+</html>
